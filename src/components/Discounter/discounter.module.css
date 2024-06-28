@@ -1,0 +1,59 @@
+@keyframes scaleUpDown {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+}
+
+.discountContainer {
+    position: absolute;
+    right: 5px;
+    top: -30px;
+    background-image: url(../../images/Star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18.67px;
+    line-height: 24.27px;
+
+    /* Добавление анимации */
+    animation: scaleUpDown 1.5s infinite alternate 90s, fadeOut 50s forwards 90s;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.discountOffer {
+    background-image: url(../../images/Star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18.67px;
+    line-height: 24.27px;
+    position: relative;
+    bottom: 15px
+}

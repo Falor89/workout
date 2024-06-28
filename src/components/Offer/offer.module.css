@@ -1,0 +1,92 @@
+.section {
+    width: 750px;
+    max-height: 658px;
+    padding: 0 40px 40px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification {
+    width: 193px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01B9C5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.headingContainer {
+    padding: 30px 0 40px 0;
+    margin: 0 auto;
+    width: 573px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textTop {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.textMid {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    padding: 30px 0 8px 0
+}
+
+.textBold {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+}
+
+.textBlue {
+    color: #01B9C5;
+}
+
+.textBottom {
+    width: 458px;
+    height: 59px;
+    border: 1px solid #01B9C5;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px
+}
+
+.offerDesc {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    padding-bottom: 20px;
+    align-self: flex-start;
+}
+
+.offersList {
+    padding: 0 0 40px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    max-width: 670px;
+}

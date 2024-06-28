@@ -1,0 +1,21 @@
+.checkboxActive {
+    opacity: 1;
+    padding: 6px 0 6px 0;
+    cursor: pointer;
+}
+
+.checkboxDisabled {
+    opacity: 1;
+    padding: 6px 0 6px 0;
+    cursor: pointer;
+}
+
+.checkboxActive:hover {
+    opacity: .5;
+    transition: all .3s ease;
+}
+
+.checkboxDisabled:hover {
+    opacity: .5;
+    transition: all .3s ease;
+}

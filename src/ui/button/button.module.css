@@ -1,0 +1,41 @@
+.btnNormal {
+    color: #fff;
+    width: 281px;
+    height: 76px;
+    background-color: #FD4D35;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+.btnMedium {
+    color: #fff;
+    width: 310px;
+    height: 62px;
+    background-color: #FD4D35;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+.btnNormal:hover {
+    opacity: .3;
+    transition: all .5s ease;
+}
+
+.btnMedium:hover {
+    opacity: .3;
+    transition: all .5s ease;
+}

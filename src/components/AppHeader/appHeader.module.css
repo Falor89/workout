@@ -1,0 +1,60 @@
+.header {
+    background-color: #fff;
+    margin: 0 auto;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.countContainer {
+    color: #01B9C5;
+    display: flex;
+    gap: 10px;
+    padding-left: 23px;
+}
+
+@keyframes blinking {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.countContainerActive {
+    color: #FD4D35;
+    display: flex;
+    gap: 10px;
+    padding-left: 23px;
+    animation: blinking 1.5s infinite;
+
+}
+
+.count {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 61.8px;
+}
+
+.sem {
+    composes: count;
+    opacity: .5;
+}
+
+.titleDisc {
+    composes: title;
+    color: red;
+    padding-left: 10px;
+}
